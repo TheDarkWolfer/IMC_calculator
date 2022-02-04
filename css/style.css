@@ -2,12 +2,13 @@ body {
     text-align: center;
     text-size-adjust: large;
     background-repeat: no-repeat;
-    background-color: rgb(255, 157, 0);
+    background-color: rgb(56, 56, 56);
     background-size: cover;
+    background-image: radial-gradient(gray,white,gray,white)
   }
   
   p {
-    color: rgb(128, 0, 0);
+    color: rgb(41, 41, 41);
     text-size-adjust: large;
     font-weight: bold;
     padding: 0%;
@@ -19,14 +20,17 @@ body {
 
   h2 {
       color: rgb(255, 157, 0);
-      background-color: darkred;
       text-align: center;
   }
   input {
     color: rgb(255, 157, 0);
-    background-color: darkred; 
+    background-color: gray; 
   }
 
   title {
       font-weight: bolder;
+  }
+
+  a {
+      background-color: linear-gradient(black,white,black,white,black,white,black,white);
   }
