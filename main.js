@@ -5,8 +5,3 @@ function calculIMC() {
     IMC = IMC.toFixed(2)
     //alert("Valeur de l'IMC : "+IMC);
     document.getElementById("results").value = IMC;
-}
-
-function main() {
-
-}
